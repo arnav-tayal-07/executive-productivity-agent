@@ -1,0 +1,309 @@
+{
+  "Vendor List": {
+    "signature": [
+      "vendor-1",
+      "vendor-2",
+      "vendor-3",
+      "vendor-4",
+      "vendor-5"
+    ],
+    "records": [
+      {
+        "topic_key": "vendor_list",
+        "topic_label": "Updated vendor list",
+        "actor": "arjun.malhotra@veridian-corp.example",
+        "action": "send updated vendor list",
+        "recipient": "raghav.sethi@veridian-corp.example",
+        "deadline_date": "2026-09-23",
+        "deadline_time": null,
+        "resolved": false,
+        "resolving_message_id": null,
+        "ownership_flag": "claimed",
+        "declined_by": [],
+        "evidence": [
+          "vendor-2",
+          "vendor-4"
+        ]
+      }
+    ]
+  },
+  "Mumbai Office Lease Renewal": {
+    "signature": [
+      "lease-1",
+      "lease-2",
+      "lease-3",
+      "lease-4",
+      "lease-5"
+    ],
+    "records": [
+      {
+        "topic_key": "mumbai_lease",
+        "topic_label": "Mumbai office lease renewal sign-off",
+        "actor": null,
+        "action": null,
+        "recipient": null,
+        "deadline_date": "2026-09-25",
+        "deadline_time": null,
+        "resolved": false,
+        "resolving_message_id": null,
+        "ownership_flag": "declined",
+        "declined_by": [
+          "divya.rao@veridian-corp.example"
+        ],
+        "evidence": [
+          "lease-1",
+          "lease-3",
+          "lease-4",
+          "lease-5"
+        ]
+      }
+    ]
+  },
+  "Expense Variance Report": {
+    "signature": [
+      "exp-1",
+      "exp-2",
+      "exp-3",
+      "exp-4",
+      "exp-5"
+    ],
+    "records": [
+      {
+        "topic_key": "expense_report",
+        "topic_label": "July expense variance report",
+        "actor": "divya.rao@veridian-corp.example",
+        "action": "send expense variance report",
+        "recipient": "arjun.malhotra@veridian-corp.example",
+        "deadline_date": "2026-09-23",
+        "deadline_time": null,
+        "resolved": true,
+        "resolving_message_id": "exp-4",
+        "ownership_flag": "claimed",
+        "declined_by": [],
+        "evidence": [
+          "exp-1",
+          "exp-3",
+          "exp-4",
+          "exp-5"
+        ]
+      }
+    ]
+  },
+  "Q3 Campaign Deck": {
+    "signature": [
+      "deck-1",
+      "deck-2",
+      "deck-3",
+      "deck-4",
+      "deck-5"
+    ],
+    "records": [
+      {
+        "topic_key": "campaign_deck",
+        "topic_label": "Q3 campaign deck review",
+        "actor": "neha.kapoor@veridian-corp.example",
+        "action": "schedule review meeting",
+        "recipient": "arjun.malhotra@veridian-corp.example",
+        "deadline_date": "2026-09-24",
+        "deadline_time": "09:30",
+        "resolved": true,
+        "resolving_message_id": "deck-4",
+        "ownership_flag": "claimed",
+        "declined_by": [],
+        "evidence": [
+          "deck-2",
+          "deck-3",
+          "deck-4"
+        ]
+      },
+      {
+        "topic_key": "campaign_deck",
+        "topic_label": "Q3 campaign deck review",
+        "actor": "neha.kapoor@veridian-corp.example",
+        "action": "send deck draft",
+        "recipient": "arjun.malhotra@veridian-corp.example",
+        "deadline_date": "2026-09-24",
+        "deadline_time": null,
+        "resolved": true,
+        "resolving_message_id": "deck-5",
+        "ownership_flag": "claimed",
+        "declined_by": [],
+        "evidence": [
+          "deck-5"
+        ]
+      }
+    ]
+  },
+  "Personal voice memo (self)": {
+    "signature": [
+      "vn-1",
+      "vn-2"
+    ],
+    "records": [
+      {
+        "topic_key": "vendor_list",
+        "topic_label": "Updated vendor list",
+        "actor": "arjun.malhotra@veridian-corp.example",
+        "action": "send vendor list to Raghav",
+        "recipient": "raghav@veridian-corp.example",
+        "deadline_date": "2026-09-22",
+        "deadline_time": null,
+        "resolved": false,
+        "resolving_message_id": null,
+        "ownership_flag": "claimed",
+        "declined_by": [],
+        "evidence": [
+          "vn-1"
+        ]
+      },
+      {
+        "topic_key": "mumbai_lease",
+        "topic_label": "Mumbai office lease renewal sign-off",
+        "actor": null,
+        "action": null,
+        "recipient": null,
+        "deadline_date": null,
+        "deadline_time": null,
+        "resolved": false,
+        "resolving_message_id": null,
+        "ownership_flag": "declined",
+        "declined_by": [
+          "arjun.malhotra@veridian-corp.example"
+        ],
+        "evidence": [
+          "vn-1"
+        ]
+      },
+      {
+        "topic_key": "expense_report",
+        "topic_label": "July expense variance report",
+        "actor": null,
+        "action": null,
+        "recipient": null,
+        "deadline_date": "2026-09-27",
+        "deadline_time": null,
+        "resolved": false,
+        "resolving_message_id": null,
+        "ownership_flag": "flagged_unowned",
+        "declined_by": [],
+        "evidence": [
+          "vn-2"
+        ]
+      },
+      {
+        "topic_key": "meridian_call",
+        "topic_label": "Meridian Logistics call time",
+        "actor": "arjun.malhotra@veridian-corp.example",
+        "action": "provide call time to Priya",
+        "recipient": "priyaa@veridian-corp.example",
+        "deadline_date": "2026-09-23",
+        "deadline_time": null,
+        "resolved": false,
+        "resolving_message_id": null,
+        "ownership_flag": "claimed",
+        "declined_by": [],
+        "evidence": [
+          "vn-2"
+        ]
+      }
+    ]
+  },
+  "Leadership Sync": {
+    "signature": [
+      "t1-1",
+      "t1-2",
+      "t1-3",
+      "t1-4",
+      "t1-5",
+      "t1-6",
+      "t1-7",
+      "t1-8",
+      "t1-9"
+    ],
+    "records": [
+      {
+        "topic_key": "campaign_deck",
+        "topic_label": "Q3 campaign deck review",
+        "actor": "neha.kapoor@veridian-corp.example",
+        "action": "send draft for review",
+        "recipient": "arjun.malhotra@veridian-corp.example",
+        "deadline_date": "2026-09-22",
+        "deadline_time": null,
+        "resolved": false,
+        "resolving_message_id": null,
+        "ownership_flag": "claimed",
+        "declined_by": [],
+        "evidence": [
+          "t1-2",
+          "t1-9"
+        ]
+      },
+      {
+        "topic_key": "vendor_list",
+        "topic_label": "Updated vendor list",
+        "actor": "arjun.malhotra@veridian-corp.example",
+        "action": "send updated vendor list",
+        "recipient": "raghav.sethi@veridian-corp.example",
+        "deadline_date": "2026-09-22",
+        "deadline_time": null,
+        "resolved": false,
+        "resolving_message_id": null,
+        "ownership_flag": "claimed",
+        "declined_by": [],
+        "evidence": [
+          "t1-3"
+        ]
+      },
+      {
+        "topic_key": "expense_report",
+        "topic_label": "July expense variance report",
+        "actor": "divya.rao@veridian-corp.example",
+        "action": "prepare expense variance report",
+        "recipient": "arjun.malhotra@veridian-corp.example",
+        "deadline_date": "2026-09-21",
+        "deadline_time": null,
+        "resolved": false,
+        "resolving_message_id": null,
+        "ownership_flag": "claimed",
+        "declined_by": [],
+        "evidence": [
+          "t1-6",
+          "t1-7"
+        ]
+      },
+      {
+        "topic_key": "mumbai_lease",
+        "topic_label": "Mumbai office lease renewal sign-off",
+        "actor": null,
+        "action": null,
+        "recipient": null,
+        "deadline_date": null,
+        "deadline_time": null,
+        "resolved": false,
+        "resolving_message_id": null,
+        "ownership_flag": "flagged_unowned",
+        "declined_by": [],
+        "evidence": [
+          "t1-4",
+          "t1-5"
+        ]
+      },
+      {
+        "topic_key": "meridian_call",
+        "topic_label": "Meridian Logistics call time",
+        "actor": "arjun.malhotra@veridian-corp.example",
+        "action": "reconfirm new call time with Meridian Logistics",
+        "recipient": "priya.nair@meridianlogistics.example",
+        "deadline_date": null,
+        "deadline_time": null,
+        "resolved": false,
+        "resolving_message_id": null,
+        "ownership_flag": "claimed",
+        "declined_by": [],
+        "evidence": [
+          "t1-8"
+        ]
+      }
+    ]
+  }
+}

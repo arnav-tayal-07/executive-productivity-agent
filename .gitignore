@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.env
+venv/
+.venv/
+node_modules/
+dist/
+build/
+.DS_Store
+~$*
+*.tmp
+Claude outputs/
+Agentic_AI_Factory_Assignment_Brief.docx
+Assignment 1_DataPack_ExecutiveProductivityAgent.pdf

@@ -1,0 +1,11 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic>=2.9
+python-dotenv>=1.0
+
+# LLM providers for the Q&A layer (Groq tried first, Gemini as automatic
+# fallback) — install whichever key(s) you set in .env (see .env.example).
+# Neither is required; the app runs fully offline (keyword-based Q&A
+# fallback) without them.
+# groq>=0.11
+# google-generativeai>=0.8
