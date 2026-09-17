@@ -30,7 +30,7 @@ a small keyword-based matcher and the app still works end-to-end — useful
 for a zero-dependency demo. With one or both keys set, `/ask` is answered
 by an LLM (Groq tried first, Gemini as automatic fallback if Groq fails
 for any reason — rate limit, quota, error), grounded strictly on the
-already-deduplicated task list (see "AI tools used" below).
+already-deduplicated task list (see "AI used at runtime" below).
 
 ## Architecture
 
@@ -168,12 +168,8 @@ new data be appended live without a restart.
   directly relevant to a task already surfaced elsewhere (the lease); the
   agent doesn't extract commitments from general "All Staff" broadcasts.
 
-## AI tools used and how
+## AI used at runtime
 
-- **Claude** (this build): used throughout the design and build process —
-  architecture design, code generation, stress-testing the pipeline with
-  adversarial synthetic data to find generalization bugs, and debugging
-  against the actual data pack.
 - **Groq and Gemini APIs**, optional at runtime, with automatic failover:
   power both `ai/extract_llm.py` (reading threads into structured
   commitment records) and `ai/qa.py` (answering free-form questions,
@@ -182,7 +178,7 @@ new data be appended live without a restart.
   automatically retries with Gemini instead. *Within* each provider, a
   lighter fallback model on the same key is also tried before moving to
   the next provider (`llama-3.1-8b-instant` under Groq;
-  `gemini-2.0-flash-lite` / `gemini-2.0-flash` under Gemini) — both
+  `gemini-3.5-flash-lite` under Gemini) — both
   providers' free tiers meter request quota **per model**, not per
   account, so a 429 on the primary model still leaves a fallback model
   with its own full daily allowance. Falls back to keyword-based logic on
