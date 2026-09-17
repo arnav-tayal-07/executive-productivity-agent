@@ -34,6 +34,8 @@ already-deduplicated task list (see "AI tools used" below).
 
 ## Architecture
 
+![Architecture diagram](AIONOS-architecture-diagram.png)
+
 ```
 seed_data.json (transcript + calendars + emails + voice notes, structured)
         |
