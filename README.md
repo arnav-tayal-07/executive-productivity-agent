@@ -34,7 +34,7 @@ already-deduplicated task list (see "AI used at runtime" below).
 
 ## Architecture
 
-![Architecture diagram](AIONOS-architecture-diagram.png)
+![Architecture diagram](ArnavTayal_E23CSEU1556_Assignment1_Architecture.png)
 
 ```
 seed_data.json (transcript + calendars + emails + voice notes, structured)
